@@ -1,0 +1,27 @@
+{
+    "name": "tslint-config-origami",
+    "description": "A TSLint config for Origami JavaScript Style. Based on Airbnb's JavaScript Style.",
+    "version": "1.0.0",
+    "author": "Tristan Matthias <hello@tristanmatthias.com>",
+    "bugs": {
+        "url": "https://github.com/origami-cms/tslint-config/issues"
+    },
+    "dependencies": {
+        "tslint": "^5.9.1",
+        "tslint-config-airbnb": "^5.8.0",
+        "typescript": "^2.7.2"
+    },
+    "homepage": "https://github.com/origami-cms/tslint-config/",
+    "keywords": [
+        "origami",
+        "cms",
+        "tslint",
+        "typescript"
+    ],
+    "license": "Apache-2.0",
+    "main": "tslint.json",
+    "peerDependencies": {
+        "typescript": "^2.7.2"
+    },
+    "repository": "github:origami-cms/tslint-config"
+}
