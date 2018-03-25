@@ -1,7 +1,9 @@
-{
+module.exports = {
     "extends": "tslint-config-airbnb",
     "rules": {
-        "ter-indent": [true, 4],
+        "ter-indent": [true, 4, {
+            "SwitchCase": 1
+        }],
         "object-curly-spacing": [true, "never"],
         "import-name": false,
         "trailing-comma": [true, "never"],
@@ -9,7 +11,7 @@
         "variable-name": [true, "allow-leading-underscore"],
         "object-shorthand-properties-first": false,
         "no-magic-numbers": [
-            true, -1, 0, 1, 2, 60, 100, 1000
+            true, -1, 0, 1, 2, 10, 60, 100, 1000
         ],
         "typedef-whitespace": [
             true,
@@ -33,6 +35,13 @@
             "severity": "warning",
             "options": [100]
         },
-        "align": false
+        "align": false,
+        "function-name": [
+            true,
+            {
+                'protected-method-regex': /^_?[a-z$][\w\d]+$/,
+                "private-method-regex": /^_[a-z$][\w\d]+$/
+            }
+        ]
     }
 }
