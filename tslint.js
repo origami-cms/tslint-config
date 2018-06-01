@@ -42,6 +42,7 @@ module.exports = {
                 'protected-method-regex': /^_?[a-z$][\w\d]+$/,
                 "private-method-regex": /^_[a-z$][\w\d]+$/
             }
-        ]
-    }
+        ],
+        "no-else-after-return": false
+    },
 }
