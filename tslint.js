@@ -43,6 +43,7 @@ module.exports = {
                 "private-method-regex": /^_[a-z$][\w\d]+$/
             }
         ],
-        "no-else-after-return": false
+        "no-else-after-return": false,
+        "no-consecutive-blank-lines": [true, 2]
     },
 }
