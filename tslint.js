@@ -4,7 +4,7 @@ module.exports = {
         "ter-indent": [true, 4, {
             "SwitchCase": 1
         }],
-        "object-curly-spacing": [true, "never"],
+        "object-curly-spacing": [false, "never"],
         "import-name": false,
         "trailing-comma": [true, "never"],
         "ter-arrow-parens": [true, "as-needed"],
